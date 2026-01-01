@@ -7,3 +7,12 @@ git clone https://github.com/DongnanHu6556/ego-swarm-ros2.git
 cd ..
 colcon build
 ```
+Then you can launch the planner:
+```
+source install/setup.bash
+ros2 launch ego_planner single_uav_gazebo.launch.py
+```
+Launch rviz:
+```
+ros2 launch ego_planner rviz.launch.py 
+```

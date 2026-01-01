@@ -16,3 +16,4 @@ Launch rviz:
 ```
 ros2 launch ego_planner rviz.launch.py 
 ```
+<img width="1831" height="958" alt="Screenshot 2026-01-01 21:21:05" src="https://github.com/user-attachments/assets/6903858b-2572-4f49-891b-d7d6409104e6" />

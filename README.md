@@ -13,6 +13,7 @@ source install/setup.bash
 ros2 launch ego_planner single_uav_gazebo.launch.py
 ```
 Before the autonomous navigation, the drone need to takeoff and switch to offboard mode in gazebo. For specific steps, please follow the repository https://github.com/DongnanHu6556/ego-planner-ros2-sim/tree/main.
+
 Launch rviz:
 ```
 ros2 launch ego_planner rviz.launch.py 

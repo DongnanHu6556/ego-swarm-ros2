@@ -16,6 +16,7 @@ Before the autonomous navigation, the drone need to takeoff and switch to offboa
 
 Launch rviz:
 ```
+source install/setup.bash
 ros2 launch ego_planner rviz.launch.py 
 ```
 Use "2D Goal Pose" to publish the target.
